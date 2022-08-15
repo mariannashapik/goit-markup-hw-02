@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color:#757575;
-    background: #F5F5F5;
+    background: #fff;
     font-size: 14px;
     line-height:1.7;
     letter-spacing: 0.03em;
@@ -10,16 +10,21 @@ body{
 /* Header */
      
 .logo{
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    color: #000000;
+    color: #2196F3;
     text-decoration: none;
 }
 
-.web{
-    color: #2196F3;
+.studio{
+    color: #000000;
 }
+.studio-footer{
+    color: #FFFFFF; 
+}
+
 .navigation a{
     font-weight: 500;
     font-size: 14px;
@@ -29,12 +34,10 @@ body{
     text-decoration: none;
 }
 
-.navigation a:hover{
-    color: #2196F3;
-}
+.navigation a:hover,
 .navigation a:focus{
     color: #2196F3;
- }
+}
 
 .contacts a{
     color:#757575;
@@ -67,6 +70,7 @@ ul{
     color: #FFFFFF;
 }
 .promo-button{
+font-family:inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.8;
@@ -90,6 +94,20 @@ color: #212121;
 }
 
 /* Benefits */
+
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+
 .benefits-list h3{
     font-size: 14px;
     line-height: 1.14;
@@ -122,6 +140,7 @@ footer{
     background: #2F303A;
 }
 
+
 .company a{
     font-size: 14px;
     line-height: 1.7;
@@ -146,6 +165,7 @@ color: #FFFFFF;
 /* Portfolio nav*/
 
 .projects-navigation button{
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;    
@@ -156,13 +176,12 @@ color: #FFFFFF;
     cursor:pointer;
 }
 
-.projects-navigation button:hover{
+.projects-navigation button:hover,
+.projects-navigation button:focus{
         background-color: #2196F3;
+        color:#FFFFFF;
 }
 
-.projects-navigation button:focus{
-    background-color: #2196F3;
-}
 
 .projects-list h2{
     font-size: 18px;
